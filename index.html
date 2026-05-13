@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicharanashala Summer Internship · Intern Support Hub</title>
+    <meta name="description" content="FAQ and support hub for Vicharanashala Summer Internship applied interns. Find answers to common issues, follow the posting protocol, and get help quickly.">
+    <link rel="icon" type="image/jpeg" href="logo.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Floating Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="logo.jpeg" alt="Vicharanashala" class="nav-logo-img">
+                <span>Vicharanashala</span>
+            </a>
+            <div class="nav-links">
+                <a href="#protocol">Protocol</a>
+                <a href="#faqs">FAQs</a>
+                <a href="https://samagama.in" target="_blank" class="nav-cta">Visit Samagama</a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#protocol" class="mobile-link">Protocol</a>
+        <a href="#faqs" class="mobile-link">FAQs</a>
+        <a href="https://samagama.in" target="_blank" class="mobile-link">Visit Samagama</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+            <img src="logo.jpeg" alt="Vicharanashala Logo" class="hero-logo animate-in">
+            <h1 class="hero-title animate-in">
+                <span class="gradient-text">Vicharanashala Summer Internship</span>
+            </h1>
+            <div class="hero-badge animate-in">
+                <span class="badge-dot"></span>
+                Intern Support Hub
+            </div>
+            <p class="hero-subtitle animate-in">
+                Your go-to resource for resolving issues on the Samagama platform. 
+                Check the FAQs below before posting in the WhatsApp group.
+            </p>
+            <div class="hero-buttons animate-in">
+                <a href="https://samagama.in" target="_blank" class="btn btn-primary" id="btn-samagama">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    Visit Samagama
+                </a>
+                <a href="https://samagama.in/internship/faq" target="_blank" class="btn btn-secondary" id="btn-faq">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    FAQ Page · Use Yaksha Mini
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator animate-in">
+            <span>Scroll down</span>
+            <div class="scroll-arrow">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Protocol Section -->
+    <section class="section" id="protocol">
+        <div class="container">
+            <div class="section-header animate-in">
+                <div class="section-tag">Before You Post</div>
+                <h2 class="section-title">Group Protocol</h2>
+                <p class="section-subtitle">Follow these steps before sending your query in the WhatsApp group.</p>
+            </div>
+            <div class="protocol-grid">
+                <div class="protocol-card animate-in" style="--delay: 0.1s">
+                    <div class="protocol-number">01</div>
+                    <div class="protocol-content">
+                        <h3>Check the FAQ First</h3>
+                        <p>Please check the <a href="https://samagama.in/internship/faq" target="_blank">FAQ section on samagama.in</a> before posting your question. Your query may already have been answered there. We also provide a <strong>Yaksha MiniBot</strong> that can answer questions based on the FAQ, so please try that as well.</p>
+                    </div>
+                </div>
+                <div class="protocol-card animate-in" style="--delay: 0.2s">
+                    <div class="protocol-number">02</div>
+                    <div class="protocol-content">
+                        <h3>Mention Your Email</h3>
+                        <p>Please mention the <strong>email address</strong> you used while registering on Samagama. This helps us look into your case more quickly.</p>
+                    </div>
+                </div>
+                <div class="protocol-card animate-in" style="--delay: 0.3s">
+                    <div class="protocol-number">03</div>
+                    <div class="protocol-content">
+                        <h3>Provide Details & Screenshots</h3>
+                        <p>Kindly provide a <strong>screenshot</strong> and as many relevant details as possible so that we can better understand and resolve your issue. Instead of sending multiple short messages, please send <strong>one detailed message</strong>.</p>
+                    </div>
+                </div>
+                <div class="protocol-card animate-in" style="--delay: 0.4s">
+                    <div class="protocol-number">04</div>
+                    <div class="protocol-content">
+                        <h3>Use Threaded Replies</h3>
+                        <p>If you are already in discussion with us regarding an issue, please use <strong>threaded replies</strong> instead of starting fresh messages.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="protocol-note animate-in">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                <span>You can leave the group once your query is cleared.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="section section-dark" id="faqs">
+        <div class="container">
+            <div class="section-header animate-in">
+                <div class="section-tag">Common Issues</div>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Solutions to the most common issues faced by interns.</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item animate-in" style="--delay: 0.1s">
+                    <button class="faq-question" id="faq-btn-1" aria-expanded="false">
+                        <div class="faq-icon-wrapper">
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                        </div>
+                        <span>Unable to select internship dates</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>If you are unable to find the option to select the internship dates, kindly <strong>logout</strong>, <strong>hard refresh</strong> the page and then <strong>login again</strong>.</p>
+                        <p>If the issue persists, wait <strong>24–48 hours</strong> from now — our team is currently working on it. You may use the <code>#escalate</code> option after the said waiting period.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item animate-in" style="--delay: 0.15s">
+                    <button class="faq-question" id="faq-btn-2" aria-expanded="false">
+                        <div class="faq-icon-wrapper">
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        </div>
+                        <span>Yaksha chat says "disabled"</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>If your Yaksha chat says <strong>"disabled"</strong>, please scroll to the top of the chat box and click <strong>"Interact with Yaksha"</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item animate-in" style="--delay: 0.2s">
+                    <button class="faq-question" id="faq-btn-3" aria-expanded="false">
+                        <div class="faq-icon-wrapper">
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                        </div>
+                        <span>Name mismatch in the letter</span>
+                        <div class="faq-status fixed">FIXED ✅</div>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Change in the name is a serious issue and we have <strong>reversed it already</strong>.</p>
+                        <p>Check your inbox — you would have received another email either on the <strong>same thread</strong> or on a <strong>different thread</strong> (check the spam folder too).</p>
+                        <p>If you haven't received it, we will do a recheck and resend it to you.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item animate-in" style="--delay: 0.25s">
+                    <button class="faq-question" id="faq-btn-4" aria-expanded="false">
+                        <div class="faq-icon-wrapper">
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        </div>
+                        <span>Editing dates vs. saving for the first time</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The <strong>Selection-Confirmation Letter</strong> is triggered when you save your dates for the <strong>first time</strong>, not when you edit them subsequently.</p>
+                        <p>If you had saved dates before, editing them may not re-trigger the email — but the <strong>green confirmation on the dashboard</strong> itself confirms your dates are recorded.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item animate-in" style="--delay: 0.3s">
+                    <button class="faq-question" id="faq-btn-5" aria-expanded="false">
+                        <div class="faq-icon-wrapper">
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <span>When will I receive an offer letter?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Please check <strong>FAQ 6.3</strong> on the <a href="https://samagama.in/internship/faq" target="_blank">Samagama FAQ page</a>.</p>
+                        <p>If the expected time limit isn't satisfied, please wait for <strong>24–48 hours</strong> and then reach out by using <code>#escalate</code> in the chat.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item faq-warning animate-in" style="--delay: 0.35s">
+                    <button class="faq-question" id="faq-btn-6" aria-expanded="false">
+                        <div class="faq-icon-wrapper warning">
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                        </div>
+                        <span>Important: Escalation & Group Rules</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="warning-box">
+                            <p>In some time, <strong>all escalations will be handled on this WhatsApp group only</strong>.</p>
+                            <p>If you get banned from here, you essentially may end up <strong>not doing your internship</strong> when you face any problems.</p>
+                            <p>Read all the messages above and please <strong>leave the group if your concern is solved</strong>. Practice attention to detail.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section" id="cta">
+        <div class="container">
+            <div class="cta-card animate-in">
+                <div class="cta-glow"></div>
+                <h2>Still need help?</h2>
+                <p>Check the full FAQ page on Samagama and use the <strong>Yaksha Mini</strong> bot for instant answers.</p>
+                <div class="cta-buttons">
+                    <a href="https://samagama.in" target="_blank" class="btn btn-primary" id="btn-cta-samagama">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        Samagama.in
+                    </a>
+                    <a href="https://samagama.in/internship/faq" target="_blank" class="btn btn-secondary" id="btn-cta-faq">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                        FAQ Page
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Vicharanashala Summer Internship · <a href="https://samagama.in" target="_blank">samagama.in</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
